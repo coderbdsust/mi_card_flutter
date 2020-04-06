@@ -39,54 +39,38 @@ class MyApp extends StatelessWidget {
               Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-                child: Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.phone,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Text(
-                        '+880 1937595521',
-                        style: TextStyle(
-                          fontFamily: 'Source Sans Pro',
-                          fontSize: 20,
-                          color: Colors.teal.shade500,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '+880 1937595521',
+                    style: TextStyle(
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20,
+                      color: Colors.teal.shade500,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ),
               Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-                child: Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.email,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Text(
-                        'biswajit.sust@gmail.com',
-                        style: TextStyle(
-                          fontFamily: 'Source Sans Pro',
-                          fontSize: 20,
-                          color: Colors.teal.shade500,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'biswajit.sust@gmail.com',
+                    style: TextStyle(
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20,
+                      color: Colors.teal.shade500,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ),
